@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="assign1.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>TechFest 2026</h1>
+        <p id="tagline">Innovate. Create. Inspire.</p>
+
+        <p id="tagline">Annual Technology Festival of ABC College</p>
+    </div>
+
+    <div class="container">
+        <h2>About TechFest</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquam nam blanditiis nulla id numquam,
+            debitis at voluptatem dolorem natus? Dolore nesciunt tempora nobis tempore omnis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eum cupiditate dolor! Culpa voluptatem
+            recusandae, eum perspiciatis blanditiis beatae excepturi dolor commodi eaque maxime sint mollitia tempore
+            voluptatum ad aperiam?</p>
+
+        <img src="img.jpeg" alt="">
+        <p>
+            Learn more about web standards at
+            <a href="" https://www.w3.org/"">W3C</a>
+            .
+        </p>
+    </div>
+    <div class="container">
+        <h2>Events & Activities</h2>
+        <h3>Available Events</h3>
+        <ul>
+            <li>Web Development Challange</li>
+            <li>Coding Competition</li>
+            <li>Quiz Competition</li>
+            <li>Project Competition</li>
+            <li>Poster Making Competition</li>
+        </ul>
+        <h3>How to Participate</h3>
+        <ol>
+            <li>Select your preferred event</li>
+            <li>Complete the registration form</li>
+            <li>Submit your registration</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h2>TechFest Schedule</h2>
+        <table border="1px">
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Venue</th>
+                <th>Coordinator</th>
+            </tr>
+            <tr>
+                <td>11:45AM</td>
+                <td>Inaugration</td>
+                <td>Auditorium</td>
+                <td>Dr. Sharma</td>
+            </tr>
+            <tr>
+                <td>12:00AM</td>
+                <td>Coding Comp.</td>
+                <td>Computer LAB-1</td>
+                <td>Mr. Kumar</td>
+            </tr>
+            <tr>
+                <td>12:45PM</td>
+                <td>WebDev Challenge</td>
+                <td>Computer LAB-2</td>
+                <td>Ms. Singh</td>
+            </tr>
+            <tr>
+                <td>01:00PM</td>
+                <td>Lunch</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>01:45PM</td>
+                <td>Quiz</td>
+                <td>Room-201</td>
+                <td>Mr. Verma</td>
+            </tr>
+            <tr>
+                <td>02:00PM</td>
+                <td>Project Exhibition</td>
+                <td>Exhibition Hall</td>
+                <td>Dr. Mehta</td>
+            </tr>
+            <tr>
+                <td>02:45PM</td>
+                <td>Prize distribution</td>
+                <td>Auditorium</td>
+                <td>Principal</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>TechFest Registration</h2>
+        <form>
+            <label for="fullname">Full Name:<br></label>
+            <input type="text" placeholder="Enter your full name" id="fullname" name="fullname" required>
+            <br>
+
+            <label for="email">Email Address:<br></label>
+            <input type="email" placeholder="Enter your email address" id="email" name="email" required>
+            <br>
+
+            <label for="phone">Phone Number:<br></label>
+            <input type="number" placeholder="Enter your phone number" id="phone" required>
+            <br>
+
+            <label for="gender">Gender:<br></label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+            <br>
+
+            <label for="course">Course:<br></label>
+            <select name="course" id="course">
+                <option value="slctcourse">Select Course</option>
+                <option value="btech-cr">BTech Core</option>
+                <option value="btech-ai/ml">BTech AI/ML</option>
+                <option value="bca">BCA</option>
+                <option value="bsc">BSc</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+
+            <label for="year">Year:<br></label>
+            <select name="year" id="year">
+                <option value="slctyr">Select Year</option>
+                <option value="1">First</option>
+                <option value="2">Second</option>
+                <option value="3">Third</option>
+                <option value="4">Fourth</option>
+            </select>
+            <br>
+
+            <label for="event">Event:<br></label>
+            <select name="event" id="event">
+                <option value="slctevent">Select event</option>
+                <option value="coding">Coding Competition</option>
+                <option value="webdev">WebDev Challange</option>
+                <option value="quiz">Quiz Competition</option>
+                <option value="project">Project Exhibition</option>
+                <option value="poster">Poster Making</option>
+            </select>
+            <br>
+
+            <label for="address">Address:<br></label>
+            <textarea name="address" id="address">Enter your address</textarea>
+            <br>
+
+            <label for="comments">Comments:<br></label>
+            <textarea name="comments" id="comments">Enter your address</textarea>
+            <br>
+
+            <button type="submit" id="register">Register Now</button>
+            <br>
+            <button type="reset" id="reset">Reset form</button>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>
